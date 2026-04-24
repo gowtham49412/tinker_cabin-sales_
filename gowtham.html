@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TINKER</title>
+    </head>
+    <style>
+        body{background-color: aqua;}
+    </style>
+    <center>
+        <body>
+            <h1>"SRI VEERAKALIAMMAN TINKERING WORKS"</h1>
+            <h4>
+            <P>Cabin sales/Lorry FC Work/Custom lorry cabin</P>
+            </h4>
+        </body>
+    </center>
+    <hr>
+    <centre>
+        <img src="work shop.jpeg"width="1500px">
+        <br>
+        <hr>
+        <img src="tools.jpeg"width="800px">
+    </centre>  <br>
+    <br>
+    <br>
+     <h2>
+    <ol>
+        <li>WHAT WE DO</li>
+    </ol>
+    </h2>
+    <br>
+    <h3>
+    <p>With more than 50 years of experience in lorry cabin work,state of art infrastructure with latest type of machinery<br>
+        along with exclent employees{the pillers of our company}.we assure you the best custome of lorry cabin work for  <br>
+        all requirements.
+    </p>
+    </h3> <br>
+    <br>
+
+    
+
+
+    <br>
+    <HR>
+    <h1>
+    <table border="1">
+        <tr>
+            <td>OUR SERVICES:</td>
+        </tr>
+    </table>
+    </h1>
+    <h1>
+        LORRY FC WORK:
+        
+    </h1>
+    <br>
+    <br>
+    <P>
+        <H3>
+            <ul>
+                <li>Complete cabin inspection for FC approval.</li>
+                <li>Repair and replacement of cabin parts. </li>
+                <li>WELDING WORK</li>
+                <li>Door aligment and working system</li>
+            </ul>
+        </H3>
+    </P><br>
+    <br>
+    <br>
+    <h1>
+        
+        CUSTOM LORRY CABIN:
+        
+    </h1>
+    <br>
+    <br>
+    <h3>
+        <ul>
+            <li>Custom lorry cabin as per your requierment</li>
+            <li>Timely delivery and custom satisfaction guaranted</li>
+            <li>Strong and durable materials are used to ensure long-lasting performance</li>
+        </ul>
+    </h3>
+    <br>
+    <br>
+    <div class="container">
+    <center>
+        <H1>
+        <p>TYPE OF CABINS;</p>
+        </H1>
+    </center>
+    <img src="lorry 1.jpeg" width="800px"><img src="lorry2.jpeg" width="800px">
+    <h3>
+        <p>High quality lorry cabin designed for durability and comfort.
+            We provoid GOOD QUALITY of cabins based on customer needs.
+        </p>
+    </h3>
+    </div>
+    <br>
+    <br>
+    <HR>
+    <h1>EXPERT WORKERS👨‍🏭;</h1>
+    <h3>
+        <ul>
+            <li>We have highly skilled and experenced workers who are dedecated to delevering quality work</li>
+            <li>Our workers take pride in their work and always focus on customers satisfaction.</li>
+        </ul>
+    </h3>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h1>LOCATION📍:</h1>
+    <H3>Salem road ,
+        Mudhalaipatty,
+        Namakkal-637001</H3>
+        <img src="card2.jpeg"width="800px">
+    <h1>CONTACT🤙🏻:
+    <ul>
+        <li>8870516094</li>
+        <li>8056026094</li>
+    </ul>
+    </h1>
+    <hr>
+    <head>
+    <title>Business Hours</title>
+    <style>
+        .timing-box {
+            background-color: #f4f4f4;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            font-family: Arial;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .timing-box h3 {
+            text-align: center;
+        }
+        .open {
+            color: green;
+            font-weight: bold;
+        }
+        .closed {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="timing-box">
+    <h3>Working Hours</h3>
+    <p>Monday - Saturday: 9:00 AM - 7:00 PM</p>
+    <p>Sunday: Closed</p>
+    <p id="status"></p>
+</div>
+
+<script>
+    const now = new Date();
+    const hours = now.getHours();
+    const day = now.getDay(); // 0 = Sunday
+
+    let status = document.getElementById("status");
+
+    if (day === 0) {
+        status.innerHTML = "Status: <span class='closed'>Closed</span>";
+    } else if (hours >= 9 && hours < 19) {
+        status.innerHTML = "Status: <span class='open'>Open Now</span>";
+    } else {
+        status.innerHTML = "Status: <span class='closed'>Closed</span>";
+    }
+</script>
+
+</body>
